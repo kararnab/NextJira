@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom scrollbar for desktop */
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(100,116,139,0.3); border-radius: 999px; }
+body { background-color: var(--bg); }
+:root {
+  --bg: #F4F6F8;
+}
+.dark {
+  --bg: #0F1720;
+}
